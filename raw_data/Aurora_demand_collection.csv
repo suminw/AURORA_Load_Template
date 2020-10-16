@@ -1,0 +1,10 @@
+Zone Names,ERCOT_AEN,ERCOT_BEPC,ERCOT_CPS,ERCOT_FlatLoad,ERCOT_Houston,ERCOT_LCRA,ERCOT_North,ERCOT_RAYBURN,ERCOT_South,ERCOT_West,ERCOT_WZ_Coast,ERCOT_WZ_East,ERCOT_WZ_FarWest,ERCOT_WZ_North,ERCOT_WZ_NorthCen,ERCOT_WZ_South,ERCOT_WZ_SouthCen,ERCOT_WZ_West
+ERCOT_AEN,,,,,,,,,,,,,,,,,21.83,
+ERCOT_BEPC,,,,,,,,,,,,,,,,,,
+ERCOT_CPS,,,,,,,,,,,,,,,,,42.06,
+ERCOT_Houston,,,,56.85,,,,,,,94.56,0.25,,,,,0.02,
+ERCOT_LCRA,,,,,,,,,,,0.9,,,,0.04,0.65,27.05,28.6
+ERCOT_North,,,,9.92,,,,,,,,95.93,,47.03,96.56,,0.17,0.85
+ERCOT_RAYBURN,,,,,,,,,,,,3.82,,14.99,2.34,,,
+ERCOT_South,,,,16.17,,,,,,,4.54,,,,0.11,99.35,8.88,12.3
+ERCOT_West,,,,17.06,,,,,,,,,100,37.98,0.96,,,58.25
