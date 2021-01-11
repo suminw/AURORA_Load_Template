@@ -1,5 +1,0 @@
-Storage ID,Efficiency,Shaping Method,Shaping Target,Charging Availability,Generating Availability,Input Schedule,Minimum Storage,Hourly Loss,Charging Resource,Charging Cost,Monthly Target Contents,Use Net Demand,Currency Units,CAES Min Ratio,CAES Max Ratio,Primary Key
-EV_LDVM_EASTERN,0.92,Demand,,hr_ElecLoadShapes|EASTERN_LDVM_CHARGING|2009,0,,0,,,,,1,,,,
-EV_LDVM_CENTRAL,0.92,Demand,,hr_ElecLoadShapes|CENTRAL_LDVM_CHARGING|2009,0,,0,,,,,1,,,,
-EV_MNGLDV,0.92,Price,,hr_ElecLoadShapes|WECC_EV_LDVUse|2009,0,,0,,,,,1,,,,
-EV_MNGFlat,0.92,Price,,hr_ElecLoadShapes|WECC_EV_LDVUse|2009,0,,0,,,,,1,,,,

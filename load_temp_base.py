@@ -69,7 +69,9 @@ aurora_load_peak_relationship = pd.DataFrame().reindex_like(aurora_2018)
 for area, group in aurora_inter_area_relationship.columns:
     aurora_load_peak_relationship.loc[pd.IndexSlice[2018, 14], pd.IndexSlice[area, :]] = \
             aurora_2018.loc[pd.IndexSlice[2018, 14], pd.IndexSlice[area, :]]/aurora_2018.loc[pd.IndexSlice[2018, 13], pd.IndexSlice[area, :]]
-
+# output intermediate calculation to calc folder
+aurora_inter_area_relationship.to_csv(os.path.join(path+'\\calc\\aurora_inter_area_relationship_baseload.csv'))
+aurora_load_peak_relationship.to_csv(os.path.join(path+'\\calc\\aurora_load_peak_relationship_baseload.csv'))
 
 
 # Step 5: Extrapolate base load based on scenario
